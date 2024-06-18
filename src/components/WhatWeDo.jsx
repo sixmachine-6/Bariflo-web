@@ -1,13 +1,13 @@
 import WeDoBox from "./../ui/WeDoBox";
 
-function WhatWeDo({ reference }) {
+function WhatWeDo() {
   const h3Style =
     "text-blue-600 font-bold text-3xl text-center tracking-wide md:text-left md:text-4xl";
   const h2Style =
     "text-black font-semibold text-xl text-center md:text-left md:text-3xl";
   const pStyle = "text-stone-800 text-center md:text-left md:text-[17.5px]";
   return (
-    <div ref={reference} className="px-2 bg-stone-100">
+    <div className="px-2 bg-stone-100">
       <h2 className="font-semibold text-3xl pt-10 text-center">What We Do</h2>
 
       <WeDoBox src="/whatWeDo/weDo1.png" alt="aqua-bodies">
