@@ -8,7 +8,7 @@ function About() {
   const pStyle =
     "max-w-[38rem] text-stone-800 text-center md:text-left md:text-[17.5px]";
   return (
-    <div className="flex justify-center items-center my-5 lg:mx-16">
+    <div id="about" className="flex justify-center items-center my-5 lg:mx-16">
       <WeDoBox src="favicon.png" alt="bariflo-cybernetics">
         <h3 className={h3Style}>About Us</h3>
         <h3 className={h3Style}>Let's Break the Barrier</h3>
